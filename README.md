@@ -101,21 +101,12 @@ O sistema utiliza cores no terminal para facilitar a leitura do jogo:
 | 🔴 Vermelho |	Erros |
 | 🟡 Amarelo |	Avisos e informações |
 | 🔵 Azul | Menus e títulos |
-|-----|-------------|
-
-Bloco de cores utilizado no código:
-#define RESET   "\033[0m"
-#define VERMELHO "\033[31m"
-#define VERDE    "\033[32m"
-#define AMARELO  "\033[33m"
-#define AZUL     "\033[34m"
 
 ---
 
 ⚙️ Compilação e Execução
 Compilar:
 
----
 gcc Free-Fire.c -o FreeFire
 
 Executar:
