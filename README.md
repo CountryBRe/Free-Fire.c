@@ -108,7 +108,7 @@ O sistema utiliza cores no terminal para facilitar a leitura do jogo:
 
 ---
 
-Disciplina: Estruturas de Dados
+Disciplina: Listas e Ordenação
 
 ---
 
