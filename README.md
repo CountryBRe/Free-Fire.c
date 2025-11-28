@@ -104,6 +104,22 @@ O sistema utiliza cores no terminal para facilitar a leitura do jogo:
 
 ---
 
+👨‍💻 Autor: Rodrigo Gomes
+
+---
+
+Disciplina: Estruturas de Dados
+
+---
+
+Professor: Daisy Albuquerque
+
+---
+
+Faculdade: Estácio de Sá
+
+---
+
 ⚙️ Compilação e Execução
 Compilar:
 
