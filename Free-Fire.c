@@ -9,6 +9,7 @@
 #define VERDE    "\033[32m"
 #define AMARELO  "\033[33m"
 #define AZUL     "\033[34m"
+#define GREEN    VERDE
 
 /* ===== CONSTANTES ===== */
 #define INVENTORY_MAX 10
@@ -291,7 +292,7 @@ void moduloAventureiro() {
                     last_comparisons_seq = comps;
                     if (idx >= 0) printf(VERDE "Encontrado (%d comparações): %s | %s | qty %d\n" RESET, comps,
                                          inventario[idx].nome, inventario[idx].tipo, inventario[idx].quantidade);
-                    else printf(VERMELHO "Não encontrado (%d comparações).\n" RESET, comps);
+                else printf(VERMELHO "Não encontrado (%d comparações).\n" RESET, comps);
                 }
                 else if (op == 5) {
                     int comps = ordenarVetorPorNome();
@@ -511,7 +512,7 @@ int main() {
 
     int escolha;
     do {
-        printf(AZUL "\n=== SURVIVAL INVENTORY (NOVATO - AVENTUREIRO - MESTRE) ===\n" RESET);
+        printf(AZUL "\n=== Inventário (NOVATO - AVENTUREIRO - MESTRE) ===\n" RESET);
         printf("1 - Nível Novato (inventário simples)\n2 - Nível Aventureiro (vetor vs lista)\n3 - Nível Mestre (ordenacao e busca)\n0 - Sair\nEscolha: ");
         if (scanf("%d", &escolha) != 1) { clearInputBuffer(); escolha = -1; }
         clearInputBuffer();
